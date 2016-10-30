@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4705ED131DB4FA2200751380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED121DB4FA2200751380 /* main.m */; };
+		4705ED161DB4FA2200751380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED151DB4FA2200751380 /* AppDelegate.m */; };
+		4705ED1C1DB4FA2200751380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4705ED1A1DB4FA2200751380 /* Main.storyboard */; };
+		4705ED1E1DB4FA2200751380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4705ED1D1DB4FA2200751380 /* Assets.xcassets */; };
+		4705ED211DB4FA2200751380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4705ED1F1DB4FA2200751380 /* LaunchScreen.storyboard */; };
+		4705ED2C1DB4FA2200751380 /* ScrollLabelViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED2B1DB4FA2200751380 /* ScrollLabelViewTests.m */; };
+		4705ED371DB4FA2300751380 /* ScrollLabelViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED361DB4FA2300751380 /* ScrollLabelViewUITests.m */; };
+		4705ED541DB654D900751380 /* BBAutoCalculationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED4F1DB654D900751380 /* BBAutoCalculationSize.m */; };
+		4705ED551DB654D900751380 /* BBScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED511DB654D900751380 /* BBScrollLabelView.m */; };
+		4705ED561DB654D900751380 /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED531DB654D900751380 /* NSString+Category.m */; };
+		4705ED5A1DB6561E00751380 /* BBHomeGrowthDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED591DB6561E00751380 /* BBHomeGrowthDateCell.m */; };
+		4705ED741DB9D56300751380 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED731DB9D56300751380 /* LeftViewController.m */; };
+		4705ED771DB9D56F00751380 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED761DB9D56F00751380 /* RightViewController.m */; };
+		4705ED8B1DBA049F00751380 /* BBHomeGrowthDateDayNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED851DBA049F00751380 /* BBHomeGrowthDateDayNumberView.m */; };
+		4705ED8C1DBA049F00751380 /* BBHomeGrowthDateDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED871DBA049F00751380 /* BBHomeGrowthDateDayView.m */; };
+		4705ED8D1DBA049F00751380 /* BBHomeGrowthDateBabyMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED8A1DBA049F00751380 /* BBHomeGrowthDateBabyMessageView.m */; };
+		4705ED961DBDA5F300751380 /* BBHomeGrowthDateCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705ED951DBDA5F300751380 /* BBHomeGrowthDateCellModel.m */; };
+		4705EDED1DC0B1D000751380 /* BBHomeGrowthCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4705EDEC1DC0B1D000751380 /* BBHomeGrowthCellViewController.m */; };
+		473AC2A01DC3392800FDEB57 /* BBRemindCellVoteViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC29F1DC3392800FDEB57 /* BBRemindCellVoteViewModel.m */; };
+		473AC3001DC5D22100FDEB57 /* BBHomeBabyGrowthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2E81DC5D22100FDEB57 /* BBHomeBabyGrowthCell.m */; };
+		473AC3011DC5D22100FDEB57 /* BBHomeBabyGrowthCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2EA1DC5D22100FDEB57 /* BBHomeBabyGrowthCellModel.m */; };
+		473AC3021DC5D22100FDEB57 /* BBHomeBabyGrowthDayCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2ED1DC5D22100FDEB57 /* BBHomeBabyGrowthDayCenterView.m */; };
+		473AC3031DC5D22100FDEB57 /* BBHomeBabyGrowthDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2EF1DC5D22100FDEB57 /* BBHomeBabyGrowthDayView.m */; };
+		473AC3041DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderAvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2F21DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderAvatarView.m */; };
+		473AC3051DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2F41DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderView.m */; };
+		473AC3061DC5D22100FDEB57 /* BBHomeBabyGrowthRecodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2F71DC5D22100FDEB57 /* BBHomeBabyGrowthRecodeView.m */; };
+		473AC3071DC5D22100FDEB57 /* BBHorizontalScrollLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2FA1DC5D22100FDEB57 /* BBHorizontalScrollLabelView.m */; };
+		473AC3081DC5D22100FDEB57 /* BBVerticalAlignmentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2FC1DC5D22100FDEB57 /* BBVerticalAlignmentLabel.m */; };
+		473AC3091DC5D22100FDEB57 /* BBHomeBabyGrowthVoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC2FF1DC5D22100FDEB57 /* BBHomeBabyGrowthVoteView.m */; };
+		95B25907A4A10A0F99C172C9 /* libPods-ScrollLabelViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C78D0DE0F86452AB9595D3 /* libPods-ScrollLabelViewTests.a */; };
+		D13C384B22F648B95478A1BC /* libPods-ScrollLabelView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E0F5CA0E9E69A822AB6CCD /* libPods-ScrollLabelView.a */; };
+		FF9F226440124FAD1B73B8A6 /* libPods-ScrollLabelViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860BF6F636320CB07DD3A434 /* libPods-ScrollLabelViewUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4705ED281DB4FA2200751380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4705ED061DB4FA2200751380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4705ED0D1DB4FA2200751380;
+			remoteInfo = ScrollLabelView;
+		};
+		4705ED331DB4FA2300751380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4705ED061DB4FA2200751380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4705ED0D1DB4FA2200751380;
+			remoteInfo = ScrollLabelView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DD2D6018A3535E67C1CBD9 /* Pods-ScrollLabelViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLabelViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLabelViewUITests/Pods-ScrollLabelViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		39E0F5CA0E9E69A822AB6CCD /* libPods-ScrollLabelView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollLabelView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4705ED0E1DB4FA2200751380 /* ScrollLabelView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollLabelView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4705ED121DB4FA2200751380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4705ED141DB4FA2200751380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4705ED151DB4FA2200751380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4705ED1B1DB4FA2200751380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4705ED1D1DB4FA2200751380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4705ED201DB4FA2200751380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4705ED221DB4FA2200751380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4705ED271DB4FA2200751380 /* ScrollLabelViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollLabelViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4705ED2B1DB4FA2200751380 /* ScrollLabelViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollLabelViewTests.m; sourceTree = "<group>"; };
+		4705ED2D1DB4FA2200751380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4705ED321DB4FA2300751380 /* ScrollLabelViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollLabelViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4705ED361DB4FA2300751380 /* ScrollLabelViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollLabelViewUITests.m; sourceTree = "<group>"; };
+		4705ED381DB4FA2300751380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4705ED4E1DB654D900751380 /* BBAutoCalculationSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBAutoCalculationSize.h; sourceTree = "<group>"; };
+		4705ED4F1DB654D900751380 /* BBAutoCalculationSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBAutoCalculationSize.m; sourceTree = "<group>"; };
+		4705ED501DB654D900751380 /* BBScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBScrollLabelView.h; sourceTree = "<group>"; };
+		4705ED511DB654D900751380 /* BBScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBScrollLabelView.m; sourceTree = "<group>"; };
+		4705ED521DB654D900751380 /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
+		4705ED531DB654D900751380 /* NSString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Category.m"; sourceTree = "<group>"; };
+		4705ED581DB6561E00751380 /* BBHomeGrowthDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeGrowthDateCell.h; sourceTree = "<group>"; };
+		4705ED591DB6561E00751380 /* BBHomeGrowthDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeGrowthDateCell.m; sourceTree = "<group>"; };
+		4705ED721DB9D56300751380 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		4705ED731DB9D56300751380 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		4705ED751DB9D56F00751380 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		4705ED761DB9D56F00751380 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		4705ED7F1DB9EF8B00751380 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4705ED841DBA049F00751380 /* BBHomeGrowthDateDayNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeGrowthDateDayNumberView.h; sourceTree = "<group>"; };
+		4705ED851DBA049F00751380 /* BBHomeGrowthDateDayNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeGrowthDateDayNumberView.m; sourceTree = "<group>"; };
+		4705ED861DBA049F00751380 /* BBHomeGrowthDateDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeGrowthDateDayView.h; sourceTree = "<group>"; };
+		4705ED871DBA049F00751380 /* BBHomeGrowthDateDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeGrowthDateDayView.m; sourceTree = "<group>"; };
+		4705ED891DBA049F00751380 /* BBHomeGrowthDateBabyMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeGrowthDateBabyMessageView.h; sourceTree = "<group>"; };
+		4705ED8A1DBA049F00751380 /* BBHomeGrowthDateBabyMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeGrowthDateBabyMessageView.m; sourceTree = "<group>"; };
+		4705ED941DBDA5F300751380 /* BBHomeGrowthDateCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeGrowthDateCellModel.h; sourceTree = "<group>"; };
+		4705ED951DBDA5F300751380 /* BBHomeGrowthDateCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeGrowthDateCellModel.m; sourceTree = "<group>"; };
+		4705EDEB1DC0B1D000751380 /* BBHomeGrowthCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeGrowthCellViewController.h; sourceTree = "<group>"; };
+		4705EDEC1DC0B1D000751380 /* BBHomeGrowthCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeGrowthCellViewController.m; sourceTree = "<group>"; };
+		473AC29E1DC3392800FDEB57 /* BBRemindCellVoteViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBRemindCellVoteViewModel.h; sourceTree = "<group>"; };
+		473AC29F1DC3392800FDEB57 /* BBRemindCellVoteViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBRemindCellVoteViewModel.m; sourceTree = "<group>"; };
+		473AC2E71DC5D22100FDEB57 /* BBHomeBabyGrowthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthCell.h; sourceTree = "<group>"; };
+		473AC2E81DC5D22100FDEB57 /* BBHomeBabyGrowthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthCell.m; sourceTree = "<group>"; };
+		473AC2E91DC5D22100FDEB57 /* BBHomeBabyGrowthCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthCellModel.h; sourceTree = "<group>"; };
+		473AC2EA1DC5D22100FDEB57 /* BBHomeBabyGrowthCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthCellModel.m; sourceTree = "<group>"; };
+		473AC2EC1DC5D22100FDEB57 /* BBHomeBabyGrowthDayCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthDayCenterView.h; sourceTree = "<group>"; };
+		473AC2ED1DC5D22100FDEB57 /* BBHomeBabyGrowthDayCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthDayCenterView.m; sourceTree = "<group>"; };
+		473AC2EE1DC5D22100FDEB57 /* BBHomeBabyGrowthDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthDayView.h; sourceTree = "<group>"; };
+		473AC2EF1DC5D22100FDEB57 /* BBHomeBabyGrowthDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthDayView.m; sourceTree = "<group>"; };
+		473AC2F11DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderAvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthHeaderAvatarView.h; sourceTree = "<group>"; };
+		473AC2F21DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderAvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthHeaderAvatarView.m; sourceTree = "<group>"; };
+		473AC2F31DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthHeaderView.h; sourceTree = "<group>"; };
+		473AC2F41DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthHeaderView.m; sourceTree = "<group>"; };
+		473AC2F61DC5D22100FDEB57 /* BBHomeBabyGrowthRecodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthRecodeView.h; sourceTree = "<group>"; };
+		473AC2F71DC5D22100FDEB57 /* BBHomeBabyGrowthRecodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthRecodeView.m; sourceTree = "<group>"; };
+		473AC2F91DC5D22100FDEB57 /* BBHorizontalScrollLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHorizontalScrollLabelView.h; sourceTree = "<group>"; };
+		473AC2FA1DC5D22100FDEB57 /* BBHorizontalScrollLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHorizontalScrollLabelView.m; sourceTree = "<group>"; };
+		473AC2FB1DC5D22100FDEB57 /* BBVerticalAlignmentLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBVerticalAlignmentLabel.h; sourceTree = "<group>"; };
+		473AC2FC1DC5D22100FDEB57 /* BBVerticalAlignmentLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBVerticalAlignmentLabel.m; sourceTree = "<group>"; };
+		473AC2FE1DC5D22100FDEB57 /* BBHomeBabyGrowthVoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBHomeBabyGrowthVoteView.h; sourceTree = "<group>"; };
+		473AC2FF1DC5D22100FDEB57 /* BBHomeBabyGrowthVoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBHomeBabyGrowthVoteView.m; sourceTree = "<group>"; };
+		6AC82A954B75AE0CA13C9E81 /* Pods-ScrollLabelViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLabelViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLabelViewUITests/Pods-ScrollLabelViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		860BF6F636320CB07DD3A434 /* libPods-ScrollLabelViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollLabelViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD81C814D56D112D2212E26 /* Pods-ScrollLabelView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLabelView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLabelView/Pods-ScrollLabelView.debug.xcconfig"; sourceTree = "<group>"; };
+		BAB3E1C165E228318346097A /* Pods-ScrollLabelView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLabelView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLabelView/Pods-ScrollLabelView.release.xcconfig"; sourceTree = "<group>"; };
+		E372E902A7E17BEAD6A63B10 /* Pods-ScrollLabelViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLabelViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLabelViewTests/Pods-ScrollLabelViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6C78D0DE0F86452AB9595D3 /* libPods-ScrollLabelViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollLabelViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3419A542950BEBB76066D5C /* Pods-ScrollLabelViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollLabelViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollLabelViewTests/Pods-ScrollLabelViewTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4705ED0B1DB4FA2200751380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13C384B22F648B95478A1BC /* libPods-ScrollLabelView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4705ED241DB4FA2200751380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B25907A4A10A0F99C172C9 /* libPods-ScrollLabelViewTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4705ED2F1DB4FA2300751380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF9F226440124FAD1B73B8A6 /* libPods-ScrollLabelViewUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4705ED051DB4FA2200751380 = {
+			isa = PBXGroup;
+			children = (
+				4705ED101DB4FA2200751380 /* ScrollLabelView */,
+				4705ED2A1DB4FA2200751380 /* ScrollLabelViewTests */,
+				4705ED351DB4FA2300751380 /* ScrollLabelViewUITests */,
+				4705ED0F1DB4FA2200751380 /* Products */,
+				DCC31E25BC09F76AC08D4B64 /* Pods */,
+				937A7F3A08D6BAD51F9314E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4705ED0F1DB4FA2200751380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED0E1DB4FA2200751380 /* ScrollLabelView.app */,
+				4705ED271DB4FA2200751380 /* ScrollLabelViewTests.xctest */,
+				4705ED321DB4FA2300751380 /* ScrollLabelViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4705ED101DB4FA2200751380 /* ScrollLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED141DB4FA2200751380 /* AppDelegate.h */,
+				4705ED151DB4FA2200751380 /* AppDelegate.m */,
+				4705EDEB1DC0B1D000751380 /* BBHomeGrowthCellViewController.h */,
+				4705EDEC1DC0B1D000751380 /* BBHomeGrowthCellViewController.m */,
+				4705ED721DB9D56300751380 /* LeftViewController.h */,
+				4705ED731DB9D56300751380 /* LeftViewController.m */,
+				4705ED751DB9D56F00751380 /* RightViewController.h */,
+				4705ED761DB9D56F00751380 /* RightViewController.m */,
+				473AC2E61DC5D22100FDEB57 /* HomeBabyGrowthCell */,
+				4705ED571DB655D900751380 /* GrowthDateCell */,
+				4705ED4D1DB654D900751380 /* ScrollLabelView */,
+				4705ED7E1DB9EF7F00751380 /* Common */,
+				4705ED111DB4FA2200751380 /* Supporting Files */,
+			);
+			path = ScrollLabelView;
+			sourceTree = "<group>";
+		};
+		4705ED111DB4FA2200751380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED1A1DB4FA2200751380 /* Main.storyboard */,
+				4705ED1D1DB4FA2200751380 /* Assets.xcassets */,
+				4705ED1F1DB4FA2200751380 /* LaunchScreen.storyboard */,
+				4705ED221DB4FA2200751380 /* Info.plist */,
+				4705ED121DB4FA2200751380 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4705ED2A1DB4FA2200751380 /* ScrollLabelViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED2B1DB4FA2200751380 /* ScrollLabelViewTests.m */,
+				4705ED2D1DB4FA2200751380 /* Info.plist */,
+			);
+			path = ScrollLabelViewTests;
+			sourceTree = "<group>";
+		};
+		4705ED351DB4FA2300751380 /* ScrollLabelViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED361DB4FA2300751380 /* ScrollLabelViewUITests.m */,
+				4705ED381DB4FA2300751380 /* Info.plist */,
+			);
+			path = ScrollLabelViewUITests;
+			sourceTree = "<group>";
+		};
+		4705ED4D1DB654D900751380 /* ScrollLabelView */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED4E1DB654D900751380 /* BBAutoCalculationSize.h */,
+				4705ED4F1DB654D900751380 /* BBAutoCalculationSize.m */,
+				4705ED501DB654D900751380 /* BBScrollLabelView.h */,
+				4705ED511DB654D900751380 /* BBScrollLabelView.m */,
+				4705ED521DB654D900751380 /* NSString+Category.h */,
+				4705ED531DB654D900751380 /* NSString+Category.m */,
+			);
+			path = ScrollLabelView;
+			sourceTree = "<group>";
+		};
+		4705ED571DB655D900751380 /* GrowthDateCell */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED581DB6561E00751380 /* BBHomeGrowthDateCell.h */,
+				4705ED591DB6561E00751380 /* BBHomeGrowthDateCell.m */,
+				4705ED941DBDA5F300751380 /* BBHomeGrowthDateCellModel.h */,
+				4705ED951DBDA5F300751380 /* BBHomeGrowthDateCellModel.m */,
+				4705ED831DBA049F00751380 /* DayView */,
+				4705ED881DBA049F00751380 /* MessageView */,
+			);
+			path = GrowthDateCell;
+			sourceTree = "<group>";
+		};
+		4705ED7E1DB9EF7F00751380 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				473AC29E1DC3392800FDEB57 /* BBRemindCellVoteViewModel.h */,
+				473AC29F1DC3392800FDEB57 /* BBRemindCellVoteViewModel.m */,
+				4705ED7F1DB9EF8B00751380 /* PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4705ED831DBA049F00751380 /* DayView */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED861DBA049F00751380 /* BBHomeGrowthDateDayView.h */,
+				4705ED871DBA049F00751380 /* BBHomeGrowthDateDayView.m */,
+				4705ED841DBA049F00751380 /* BBHomeGrowthDateDayNumberView.h */,
+				4705ED851DBA049F00751380 /* BBHomeGrowthDateDayNumberView.m */,
+			);
+			path = DayView;
+			sourceTree = "<group>";
+		};
+		4705ED881DBA049F00751380 /* MessageView */ = {
+			isa = PBXGroup;
+			children = (
+				4705ED891DBA049F00751380 /* BBHomeGrowthDateBabyMessageView.h */,
+				4705ED8A1DBA049F00751380 /* BBHomeGrowthDateBabyMessageView.m */,
+			);
+			path = MessageView;
+			sourceTree = "<group>";
+		};
+		473AC2E61DC5D22100FDEB57 /* HomeBabyGrowthCell */ = {
+			isa = PBXGroup;
+			children = (
+				473AC2E71DC5D22100FDEB57 /* BBHomeBabyGrowthCell.h */,
+				473AC2E81DC5D22100FDEB57 /* BBHomeBabyGrowthCell.m */,
+				473AC2E91DC5D22100FDEB57 /* BBHomeBabyGrowthCellModel.h */,
+				473AC2EA1DC5D22100FDEB57 /* BBHomeBabyGrowthCellModel.m */,
+				473AC2F01DC5D22100FDEB57 /* HeaderView */,
+				473AC2EB1DC5D22100FDEB57 /* DayView */,
+				473AC2F81DC5D22100FDEB57 /* ScrollLabel */,
+				473AC2F51DC5D22100FDEB57 /* RecodeView */,
+				473AC2FD1DC5D22100FDEB57 /* VoteView */,
+			);
+			path = HomeBabyGrowthCell;
+			sourceTree = "<group>";
+		};
+		473AC2EB1DC5D22100FDEB57 /* DayView */ = {
+			isa = PBXGroup;
+			children = (
+				473AC2EC1DC5D22100FDEB57 /* BBHomeBabyGrowthDayCenterView.h */,
+				473AC2ED1DC5D22100FDEB57 /* BBHomeBabyGrowthDayCenterView.m */,
+				473AC2EE1DC5D22100FDEB57 /* BBHomeBabyGrowthDayView.h */,
+				473AC2EF1DC5D22100FDEB57 /* BBHomeBabyGrowthDayView.m */,
+			);
+			path = DayView;
+			sourceTree = "<group>";
+		};
+		473AC2F01DC5D22100FDEB57 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				473AC2F31DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderView.h */,
+				473AC2F41DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderView.m */,
+				473AC2F11DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderAvatarView.h */,
+				473AC2F21DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderAvatarView.m */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		473AC2F51DC5D22100FDEB57 /* RecodeView */ = {
+			isa = PBXGroup;
+			children = (
+				473AC2F61DC5D22100FDEB57 /* BBHomeBabyGrowthRecodeView.h */,
+				473AC2F71DC5D22100FDEB57 /* BBHomeBabyGrowthRecodeView.m */,
+			);
+			path = RecodeView;
+			sourceTree = "<group>";
+		};
+		473AC2F81DC5D22100FDEB57 /* ScrollLabel */ = {
+			isa = PBXGroup;
+			children = (
+				473AC2F91DC5D22100FDEB57 /* BBHorizontalScrollLabelView.h */,
+				473AC2FA1DC5D22100FDEB57 /* BBHorizontalScrollLabelView.m */,
+				473AC2FB1DC5D22100FDEB57 /* BBVerticalAlignmentLabel.h */,
+				473AC2FC1DC5D22100FDEB57 /* BBVerticalAlignmentLabel.m */,
+			);
+			path = ScrollLabel;
+			sourceTree = "<group>";
+		};
+		473AC2FD1DC5D22100FDEB57 /* VoteView */ = {
+			isa = PBXGroup;
+			children = (
+				473AC2FE1DC5D22100FDEB57 /* BBHomeBabyGrowthVoteView.h */,
+				473AC2FF1DC5D22100FDEB57 /* BBHomeBabyGrowthVoteView.m */,
+			);
+			path = VoteView;
+			sourceTree = "<group>";
+		};
+		937A7F3A08D6BAD51F9314E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E0F5CA0E9E69A822AB6CCD /* libPods-ScrollLabelView.a */,
+				E6C78D0DE0F86452AB9595D3 /* libPods-ScrollLabelViewTests.a */,
+				860BF6F636320CB07DD3A434 /* libPods-ScrollLabelViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCC31E25BC09F76AC08D4B64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD81C814D56D112D2212E26 /* Pods-ScrollLabelView.debug.xcconfig */,
+				BAB3E1C165E228318346097A /* Pods-ScrollLabelView.release.xcconfig */,
+				E372E902A7E17BEAD6A63B10 /* Pods-ScrollLabelViewTests.debug.xcconfig */,
+				F3419A542950BEBB76066D5C /* Pods-ScrollLabelViewTests.release.xcconfig */,
+				00DD2D6018A3535E67C1CBD9 /* Pods-ScrollLabelViewUITests.debug.xcconfig */,
+				6AC82A954B75AE0CA13C9E81 /* Pods-ScrollLabelViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4705ED0D1DB4FA2200751380 /* ScrollLabelView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4705ED3B1DB4FA2300751380 /* Build configuration list for PBXNativeTarget "ScrollLabelView" */;
+			buildPhases = (
+				6A143881D6E07405DF63AB56 /* [CP] Check Pods Manifest.lock */,
+				4705ED0A1DB4FA2200751380 /* Sources */,
+				4705ED0B1DB4FA2200751380 /* Frameworks */,
+				4705ED0C1DB4FA2200751380 /* Resources */,
+				6A4185BAF7EED3F8C040FE94 /* [CP] Embed Pods Frameworks */,
+				50ABCFFCB2139B8BC38B3789 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollLabelView;
+			productName = ScrollLabelView;
+			productReference = 4705ED0E1DB4FA2200751380 /* ScrollLabelView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4705ED261DB4FA2200751380 /* ScrollLabelViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4705ED3E1DB4FA2300751380 /* Build configuration list for PBXNativeTarget "ScrollLabelViewTests" */;
+			buildPhases = (
+				BE26B6D9D6372CF5D094E34C /* [CP] Check Pods Manifest.lock */,
+				4705ED231DB4FA2200751380 /* Sources */,
+				4705ED241DB4FA2200751380 /* Frameworks */,
+				4705ED251DB4FA2200751380 /* Resources */,
+				7DF512F5450EB1F7D51D9CAC /* [CP] Embed Pods Frameworks */,
+				A5F6B058CA9D100E26BD301A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4705ED291DB4FA2200751380 /* PBXTargetDependency */,
+			);
+			name = ScrollLabelViewTests;
+			productName = ScrollLabelViewTests;
+			productReference = 4705ED271DB4FA2200751380 /* ScrollLabelViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4705ED311DB4FA2300751380 /* ScrollLabelViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4705ED411DB4FA2300751380 /* Build configuration list for PBXNativeTarget "ScrollLabelViewUITests" */;
+			buildPhases = (
+				64EB28168666416D2E98FC77 /* [CP] Check Pods Manifest.lock */,
+				4705ED2E1DB4FA2300751380 /* Sources */,
+				4705ED2F1DB4FA2300751380 /* Frameworks */,
+				4705ED301DB4FA2300751380 /* Resources */,
+				34AFF667FDE1A5EA40086A30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4705ED341DB4FA2300751380 /* PBXTargetDependency */,
+			);
+			name = ScrollLabelViewUITests;
+			productName = ScrollLabelViewUITests;
+			productReference = 4705ED321DB4FA2300751380 /* ScrollLabelViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4705ED061DB4FA2200751380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = zhoujihang;
+				TargetAttributes = {
+					4705ED0D1DB4FA2200751380 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = UMFVMZP994;
+						ProvisioningStyle = Automatic;
+					};
+					4705ED261DB4FA2200751380 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4705ED0D1DB4FA2200751380;
+					};
+					4705ED311DB4FA2300751380 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4705ED0D1DB4FA2200751380;
+					};
+				};
+			};
+			buildConfigurationList = 4705ED091DB4FA2200751380 /* Build configuration list for PBXProject "ScrollLabelView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4705ED051DB4FA2200751380;
+			productRefGroup = 4705ED0F1DB4FA2200751380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4705ED0D1DB4FA2200751380 /* ScrollLabelView */,
+				4705ED261DB4FA2200751380 /* ScrollLabelViewTests */,
+				4705ED311DB4FA2300751380 /* ScrollLabelViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4705ED0C1DB4FA2200751380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4705ED211DB4FA2200751380 /* LaunchScreen.storyboard in Resources */,
+				4705ED1E1DB4FA2200751380 /* Assets.xcassets in Resources */,
+				4705ED1C1DB4FA2200751380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4705ED251DB4FA2200751380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4705ED301DB4FA2300751380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34AFF667FDE1A5EA40086A30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollLabelViewUITests/Pods-ScrollLabelViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50ABCFFCB2139B8BC38B3789 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollLabelView/Pods-ScrollLabelView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64EB28168666416D2E98FC77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A143881D6E07405DF63AB56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4185BAF7EED3F8C040FE94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollLabelView/Pods-ScrollLabelView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF512F5450EB1F7D51D9CAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollLabelViewTests/Pods-ScrollLabelViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F6B058CA9D100E26BD301A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollLabelViewTests/Pods-ScrollLabelViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE26B6D9D6372CF5D094E34C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4705ED0A1DB4FA2200751380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473AC3021DC5D22100FDEB57 /* BBHomeBabyGrowthDayCenterView.m in Sources */,
+				473AC3081DC5D22100FDEB57 /* BBVerticalAlignmentLabel.m in Sources */,
+				4705ED741DB9D56300751380 /* LeftViewController.m in Sources */,
+				4705ED561DB654D900751380 /* NSString+Category.m in Sources */,
+				473AC3091DC5D22100FDEB57 /* BBHomeBabyGrowthVoteView.m in Sources */,
+				4705ED771DB9D56F00751380 /* RightViewController.m in Sources */,
+				473AC3001DC5D22100FDEB57 /* BBHomeBabyGrowthCell.m in Sources */,
+				4705ED551DB654D900751380 /* BBScrollLabelView.m in Sources */,
+				4705ED541DB654D900751380 /* BBAutoCalculationSize.m in Sources */,
+				4705EDED1DC0B1D000751380 /* BBHomeGrowthCellViewController.m in Sources */,
+				4705ED161DB4FA2200751380 /* AppDelegate.m in Sources */,
+				473AC3031DC5D22100FDEB57 /* BBHomeBabyGrowthDayView.m in Sources */,
+				4705ED961DBDA5F300751380 /* BBHomeGrowthDateCellModel.m in Sources */,
+				4705ED5A1DB6561E00751380 /* BBHomeGrowthDateCell.m in Sources */,
+				4705ED8D1DBA049F00751380 /* BBHomeGrowthDateBabyMessageView.m in Sources */,
+				4705ED8B1DBA049F00751380 /* BBHomeGrowthDateDayNumberView.m in Sources */,
+				473AC3071DC5D22100FDEB57 /* BBHorizontalScrollLabelView.m in Sources */,
+				473AC2A01DC3392800FDEB57 /* BBRemindCellVoteViewModel.m in Sources */,
+				473AC3011DC5D22100FDEB57 /* BBHomeBabyGrowthCellModel.m in Sources */,
+				4705ED131DB4FA2200751380 /* main.m in Sources */,
+				473AC3051DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderView.m in Sources */,
+				473AC3041DC5D22100FDEB57 /* BBHomeBabyGrowthHeaderAvatarView.m in Sources */,
+				4705ED8C1DBA049F00751380 /* BBHomeGrowthDateDayView.m in Sources */,
+				473AC3061DC5D22100FDEB57 /* BBHomeBabyGrowthRecodeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4705ED231DB4FA2200751380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4705ED2C1DB4FA2200751380 /* ScrollLabelViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4705ED2E1DB4FA2300751380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4705ED371DB4FA2300751380 /* ScrollLabelViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4705ED291DB4FA2200751380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4705ED0D1DB4FA2200751380 /* ScrollLabelView */;
+			targetProxy = 4705ED281DB4FA2200751380 /* PBXContainerItemProxy */;
+		};
+		4705ED341DB4FA2300751380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4705ED0D1DB4FA2200751380 /* ScrollLabelView */;
+			targetProxy = 4705ED331DB4FA2300751380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4705ED1A1DB4FA2200751380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4705ED1B1DB4FA2200751380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4705ED1F1DB4FA2200751380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4705ED201DB4FA2200751380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4705ED391DB4FA2300751380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4705ED3A1DB4FA2300751380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4705ED3C1DB4FA2300751380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD81C814D56D112D2212E26 /* Pods-ScrollLabelView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMFVMZP994;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ScrollLabelView/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = ScrollLabelView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytree.ScrollLabelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4705ED3D1DB4FA2300751380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB3E1C165E228318346097A /* Pods-ScrollLabelView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UMFVMZP994;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ScrollLabelView/Common/PrefixHeader.pch";
+				INFOPLIST_FILE = ScrollLabelView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytree.ScrollLabelView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4705ED3F1DB4FA2300751380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E372E902A7E17BEAD6A63B10 /* Pods-ScrollLabelViewTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollLabelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytree.ScrollLabelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollLabelView.app/ScrollLabelView";
+			};
+			name = Debug;
+		};
+		4705ED401DB4FA2300751380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3419A542950BEBB76066D5C /* Pods-ScrollLabelViewTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollLabelViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytree.ScrollLabelViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollLabelView.app/ScrollLabelView";
+			};
+			name = Release;
+		};
+		4705ED421DB4FA2300751380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00DD2D6018A3535E67C1CBD9 /* Pods-ScrollLabelViewUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollLabelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytree.ScrollLabelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollLabelView;
+			};
+			name = Debug;
+		};
+		4705ED431DB4FA2300751380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC82A954B75AE0CA13C9E81 /* Pods-ScrollLabelViewUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollLabelViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.babytree.ScrollLabelViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollLabelView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4705ED091DB4FA2200751380 /* Build configuration list for PBXProject "ScrollLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4705ED391DB4FA2300751380 /* Debug */,
+				4705ED3A1DB4FA2300751380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4705ED3B1DB4FA2300751380 /* Build configuration list for PBXNativeTarget "ScrollLabelView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4705ED3C1DB4FA2300751380 /* Debug */,
+				4705ED3D1DB4FA2300751380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4705ED3E1DB4FA2300751380 /* Build configuration list for PBXNativeTarget "ScrollLabelViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4705ED3F1DB4FA2300751380 /* Debug */,
+				4705ED401DB4FA2300751380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4705ED411DB4FA2300751380 /* Build configuration list for PBXNativeTarget "ScrollLabelViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4705ED421DB4FA2300751380 /* Debug */,
+				4705ED431DB4FA2300751380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4705ED061DB4FA2200751380 /* Project object */;
+}
